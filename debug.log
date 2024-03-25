@@ -1,0 +1,360 @@
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFlood()
+INFO: /flood/stations?stations=[42] flood alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllChildrenAndFamily()
+INFO: /childAlert?address=TestAddress child alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllChildrenAndFamily()
+ERROR: l'adresse TestAddress n'existe pas ou ne comporte pas d'enfants
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFire()
+INFO: /fire?address=TestAddress fire alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFire()
+ERROR: l'adresse TestAddress n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPhone()
+INFO: /phoneAlert?firestation=42 phone alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllEmail()
+INFO: /communityEmail?city=Paris child alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllEmail()
+ERROR: la ville Paris n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPersonInfo()
+INFO: /personInfo?firstName=Bobby&lastName=Dupont person info alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPersonInfo()
+ERROR: Bobby Dupont n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPersonInfo()
+INFO: /personInfo?firstName=Bobby&lastName=Dupont person info alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFirestation()
+INFO: /firestation?stationNumber=42 firestation alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllChildrenAndFamily()
+INFO: /childAlert?address=TestAddress child alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFlood()
+INFO: /flood/stations?stations=[42] flood alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFlood()
+ERROR: la station n°[I@7af1d072 n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFirestation()
+INFO: /firestation?stationNumber=42 firestation alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFirestation()
+ERROR: la station n°42 n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFire()
+INFO: /fire?address=TestAddress fire alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPhone()
+INFO: /phoneAlert?firestation=42 phone alert called
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPhone()
+ERROR: la station n°42 n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllEmail()
+INFO: /communityEmail?city=Paris child alert called
+2023-04-05 12:49:12 [main] com.mg.warning.configuration.ReadJSON.readEntities()
+INFO: JSON imported successfully
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.configuration.Initialize.saveData()
+INFO: Entities written successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.ChildAlertService.getChildrenWithFamilyDTO()
+DEBUG: sort by address and ages then get family and children
+2023-04-05 12:49:12 [main] com.mg.warning.model.MedicalRecord.getAgeFromMedicalRecords()
+DEBUG: getting age for Bobby, Dupont
+2023-04-05 12:49:12 [main] com.mg.warning.model.MedicalRecord.getAgeFromMedicalRecords()
+DEBUG: getting age for Sarah, Dupont
+2023-04-05 12:49:12 [main] com.mg.warning.service.ChildAlertService.getChildrenWithFamilyDTO()
+DEBUG: check if children found
+2023-04-05 12:49:12 [main] com.mg.warning.service.ChildAlertService.getChildrenWithFamilyDTO()
+INFO: getChildrenWithFamilyDTO executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.ChildAlertService.getChildrenWithFamilyDTO()
+DEBUG: sort by address and ages then get family and children
+2023-04-05 12:49:12 [main] com.mg.warning.service.ChildAlertService.getChildrenWithFamilyDTO()
+DEBUG: check if children found
+2023-04-05 12:49:12 [main] com.mg.warning.service.ChildAlertService.getChildrenWithFamilyDTO()
+INFO: getChildrenWithFamilyDTO executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.EmailAlertService.getEmailDTOS()
+DEBUG: getting and writing emails
+2023-04-05 12:49:12 [main] com.mg.warning.service.EmailAlertService.getEmailDTO()
+INFO: getEmailDTO executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.FireAlertService.getFireDTO()
+DEBUG: getting data
+2023-04-05 12:49:12 [main] com.mg.warning.service.FireAlertService.getFirePersonDTOS()
+DEBUG: getting persons
+2023-04-05 12:49:12 [main] com.mg.warning.model.MedicalRecord.getAgeFromMedicalRecords()
+DEBUG: getting age for Bobby, Dupont
+2023-04-05 12:49:12 [main] com.mg.warning.service.FireAlertService.getFireStationDTOS()
+DEBUG: getting firestations
+2023-04-05 12:49:12 [main] com.mg.warning.service.FireAlertService.getFireDTO()
+DEBUG: writing data
+2023-04-05 12:49:12 [main] com.mg.warning.service.FireAlertService.getFireDTO()
+INFO: getFireDTO executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getPersons()
+DEBUG: find persons from firestation
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getFirestationDTOS()
+DEBUG: get persons
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getMedicalRecords()
+DEBUG: find medicalrecords from persons
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getFirestationAlertDTOWithSum()
+DEBUG: check age status
+2023-04-05 12:49:12 [main] com.mg.warning.model.MedicalRecord.getAgeFromMedicalRecords()
+DEBUG: getting age for Bobby, Dupont
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getFirestationAlertDTOWithSum()
+INFO: getFirestationAlertDTOWithSum executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getPersons()
+DEBUG: find persons from firestation
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getFirestationDTOS()
+DEBUG: get persons
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getMedicalRecords()
+DEBUG: find medicalrecords from persons
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getFirestationAlertDTOWithSum()
+DEBUG: check age status
+2023-04-05 12:49:12 [main] com.mg.warning.model.MedicalRecord.getAgeFromMedicalRecords()
+DEBUG: getting age for Bobby, Dupont
+2023-04-05 12:49:12 [main] com.mg.warning.service.FirestationAlertService.getFirestationAlertDTOWithSum()
+INFO: getFirestationAlertDTOWithSum executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.FloodAlertService.getFirestations()
+DEBUG: find firestations
+2023-04-05 12:49:12 [main] com.mg.warning.service.FloodAlertService.getFloodDTOS()
+DEBUG: get and write persons and medicalrecords
+2023-04-05 12:49:12 [main] com.mg.warning.model.MedicalRecord.getAgeFromMedicalRecords()
+DEBUG: getting age for Bobby, Dupont
+2023-04-05 12:49:12 [main] com.mg.warning.service.FloodAlertService.getFloodDTO()
+INFO: getFloodDTO executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.PersonInfoAlertService.getPersonInfoDTOS()
+DEBUG: get persons infos
+2023-04-05 12:49:12 [main] com.mg.warning.service.PersonInfoAlertService.extracted()
+DEBUG: get medicalrecords infos
+2023-04-05 12:49:12 [main] com.mg.warning.model.MedicalRecord.getAgeFromMedicalRecords()
+DEBUG: getting age for Bobby, Dupont
+2023-04-05 12:49:12 [main] com.mg.warning.service.PersonInfoAlertService.getPersonInfoDTO()
+INFO: getPersonInfoDTO executed successfully
+2023-04-05 12:49:12 [main] com.mg.warning.service.PhoneAlertService.getPhoneDTO()
+INFO: getPhoneDTO executed successfully
+2023-04-05 12:49:13 [main] com.mg.warning.controller.FirestationController.delOnePerson()
+INFO: /person function update called for firestation number : 42
+2023-04-05 12:49:13 [main] com.mg.warning.controller.FirestationController.postOneFirestation()
+INFO: /person function post called for firestation : TestAddress, number : 1
+2023-04-05 12:49:13 [main] com.mg.warning.controller.FirestationController.getAllFirestation()
+INFO: /person function get all called
+2023-04-05 12:49:13 [main] com.mg.warning.controller.FirestationController.getAllFirestation()
+INFO: /person function get all called
+2023-04-05 12:49:13 [main] com.mg.warning.controller.FirestationController.updateOnePerson()
+INFO: /person function update called for firestation : TestAddress, number : 42
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.update()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.update()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.delete()
+DEBUG: suppression de la caserne n°42 à TestAddress2
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.findByStationNumber()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.findByStationNumber()
+DEBUG: firestation ajoutée
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.findByStationNumber()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.findByAddress()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.delete()
+DEBUG: suppression de la caserne n°42 à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.update()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.update()
+DEBUG: firestation mise à jour
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.update()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.update()
+DEBUG: firestation mise à jour
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.findByAddress()
+DEBUG: vérification de la caserne n°TestAddress à TestAddress
+2023-04-05 12:49:13 [main] com.mg.warning.repository.FirestationRepository.findByAddress()
+DEBUG: firestation ajoutée
+2023-04-05 12:49:14 [main] com.mg.warning.controller.MedicalRecordController.delOneMedicalRecord()
+INFO: /medicalRecord function delete called for TestFirstName, testLastName
+2023-04-05 12:49:14 [main] com.mg.warning.controller.MedicalRecordController.postOneMedicalRecord()
+INFO: /medicalRecord function post called for TestFirstName1, TestLastName1
+2023-04-05 12:49:14 [main] com.mg.warning.controller.MedicalRecordController.getAllMedicalRecords()
+INFO: /medicalRecord/GetAll function get all called
+2023-04-05 12:49:14 [main] com.mg.warning.controller.MedicalRecordController.updateOneMedicalRecord()
+INFO: /medicalRecord function update called for TestFirstName1, TestLastName1
+2023-04-05 12:49:14 [main] com.mg.warning.controller.MedicalRecordController.getAllMedicalRecords()
+INFO: /medicalRecord/GetAll function get all called
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.findByName()
+DEBUG: vérification de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.findByName()
+DEBUG: medicalrecord ajouté
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.update()
+DEBUG: vérification de Sarah, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.findByName()
+DEBUG: vérification de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.delete()
+DEBUG: suppression de Sarah, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.findByFirstAndLastName()
+DEBUG: vérification de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.findByFirstAndLastName()
+DEBUG: medicalrecord ajouté
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.delete()
+DEBUG: suppression de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.findByFirstAndLastName()
+DEBUG: vérification de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.save()
+DEBUG: ajout des medicalrecords
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.update()
+DEBUG: vérification de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.MedicalRecordRepository.update()
+DEBUG: medicalrecord mis à jour
+2023-04-05 12:49:14 [main] com.mg.warning.controller.PersonController.delOnePerson()
+INFO: /person function delete called for TestFirstName, testLastName
+2023-04-05 12:49:14 [main] com.mg.warning.controller.PersonController.postOnePerson()
+INFO: /person function post called for TestFirstName1, TestLastName1
+2023-04-05 12:49:14 [main] com.mg.warning.controller.PersonController.getAllPersons()
+INFO: /person function get all called
+2023-04-05 12:49:14 [main] com.mg.warning.controller.PersonController.updateOnePerson()
+INFO: /person function update called for TestFirstName1, TestLastName1
+2023-04-05 12:49:14 [main] com.mg.warning.controller.PersonController.getAllPersons()
+INFO: /person function get all called
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByFirstAndLastName()
+DEBUG: vérification de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByFirstAndLastName()
+DEBUG: personne ajoutée
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.update()
+DEBUG: suppression de Sarah, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByCity()
+DEBUG: vérification de null, null
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByCity()
+DEBUG: personne ajoutée
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByFirstAndLastName()
+DEBUG: vérification de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.delete()
+DEBUG: suppression de Sarah, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByAddress()
+DEBUG: vérification de null, null
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.delete()
+DEBUG: suppression de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.update()
+DEBUG: suppression de Bobby, Dupont
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.update()
+DEBUG: personne mise à jour
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByCity()
+DEBUG: vérification de null, null
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.save()
+DEBUG: ajout des personnes
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByAddress()
+DEBUG: vérification de null, null
+2023-04-05 12:49:14 [main] com.mg.warning.repository.PersonRepository.findByAddress()
+DEBUG: personne ajoutée

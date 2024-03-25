@@ -1,0 +1,14 @@
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllChildrenAndFamily()
+ERROR: l'adresse TestAddress n'existe pas ou ne comporte pas d'enfants
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFire()
+ERROR: l'adresse TestAddress n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllEmail()
+ERROR: la ville Paris n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPersonInfo()
+ERROR: Bobby Dupont n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFlood()
+ERROR: la station n°[I@7af1d072 n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllFirestation()
+ERROR: la station n°42 n'existe pas
+2023-04-05 12:49:10 [main] com.mg.warning.controller.AlertController.getAllPhone()
+ERROR: la station n°42 n'existe pas
